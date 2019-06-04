@@ -1,5 +1,5 @@
-# ValentinDosh.github.io
+# ValentinDosh.github.io                                                                    # Valentin Doshchechko
 
-Test Github Pages
+Test Github Pages                                                                          ## My home work
 
-[**View my Github Profile**](https://github.com/ValentinDosh "ValentinDosh")
+[**View my Github Profile**](https://github.com/ValentinDosh "ValentinDosh")              
