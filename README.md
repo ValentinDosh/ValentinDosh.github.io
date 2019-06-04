@@ -1,4 +1,4 @@
-# ValentinDosh.github.io
+# Valentin Doshchechko
 
 Test Github Pages
 
