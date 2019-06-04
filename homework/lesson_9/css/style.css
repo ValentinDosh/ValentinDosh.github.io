@@ -1,0 +1,42 @@
+.header span{
+	display: block;
+	font-size: 24px;
+}
+
+.header strong{
+	font-size: 24px;
+}
+
+.header{
+	padding-top: 125px;
+	padding-bottom: 90px;
+}
+
+.form{
+	border: 4px solid blue;
+	padding: 0 20px 20px;
+}
+
+.form p {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 45px;
+}
+
+.form input{
+	margin-bottom: 30px;
+}
+
+.fiature-box{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.jpg img{
+	width: 100%;
+	padding-top: 20px;
+}
+
+.video{
+	margin-bottom: 30px;
+}
