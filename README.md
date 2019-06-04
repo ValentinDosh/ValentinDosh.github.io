@@ -2,4 +2,4 @@
 
 Test Github Pages
 
-[**View my Github Profile**][https://github.com/ValentinDosh]
+**View my Github Profile**](https://github.com/ValentinDosh "ValentinDosh")
