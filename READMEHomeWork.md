@@ -4,7 +4,7 @@
 
 [**Lesson 13**](https://valentindosh.github.io/homework/lesson_13/ "Lesson 13") - Perfect Pixel
 
-[**Lesson 14**](https://valentindosh.github.io/homework/lesson_14.2/ "Lesson 14") - Head. Start.
+[**Lesson 14**](https://valentindosh.github.io/homework/lesson_14/src/ "Lesson 14") - Head. Start.
 
 [**Lesson 14.2**](https://valentindosh.github.io/homework/lesson_14.2/ "Lesson 14.2") - Connection fonts
 
