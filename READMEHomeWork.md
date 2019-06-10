@@ -15,3 +15,5 @@
 [**Lesson 14.4**](https://valentindosh.github.io/homework/lesson_14.4/ "Lesson 14.4") - Adaptive layout on bootstrap.
 
 [**Lesson 16**](https://valentindosh.github.io/homework/lesson_16/ "Lesson 16") - Sliders.
+
+[**Lesson 14.5**](https://valentindosh.github.io/homework/lesson_14.5/ "Lesson 14.4") - Section "features" on Slick Slider. Adaptive.
