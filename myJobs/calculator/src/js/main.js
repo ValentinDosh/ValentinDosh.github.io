@@ -367,10 +367,40 @@ window.onload = function(){
 	}
 
 	equally.onclick = function(){
-		field.innerHTML = eval(field.innerHTML);
-		equally.setAttribute('data-equally', 'equally');
+		if(parseInt(field.innerHTML[field.innerHTML.length-1]) >= 0 
+			&& parseInt(field.innerHTML[field.innerHTML.length-1]) < 10){
+
+				for (var i = field.innerHTML.length - 1; i >= 0; i--) {
+					// если есть ')' в выражении значит у нас нету в конце
+					// отрицательного значения, а значит и закрывать его скобкой
+					// не нужно поэтому ставим просто минус
+					// выходим из цикла
+					if(field.innerHTML[i] == ')'){
+						field.innerHTML = eval(field.innerHTML);
+						equally.setAttribute('data-equally', 'equally');
+						return;
+					}
+					// если в выражении есть связка (-(0-9)) 
+					// значит закрываем отрицательное число скобкой
+					// и ставим (-)
+					// выходим из цикла
+					if(parseInt(field.innerHTML[i]) >= 0
+						&& parseInt(field.innerHTML[i]) < 10
+						&& field.innerHTML[i-1] == '-'
+						&& field.innerHTML[i-2] == '('){
+						field.innerHTML += ')';
+						field.innerHTML = eval(field.innerHTML);
+						equally.setAttribute('data-equally', 'equally');
+						return;
+					}
+				}
+					// если ни одно из условий двух не выполнилось
+					// добавляем просто минус
+					field.innerHTML = eval(field.innerHTML);
+					equally.setAttribute('data-equally', 'equally');
+			}
+}
 	}
 
 
 	
-}
